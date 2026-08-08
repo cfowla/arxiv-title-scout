@@ -1,0 +1,330 @@
+{
+  "schema_version": 1,
+  "run_id": "20260808T054852Z",
+  "created_at": "2026-08-08T05:48:52.959608+00:00",
+  "source": "built_in_demo",
+  "parameters": {
+    "categories": null,
+    "max_results": null,
+    "since_hours": null,
+    "config": "/mnt/data/arxiv-title-scout-prototype/interests.json"
+  },
+  "counts": {
+    "retrieved": 12,
+    "positive_score": 9,
+    "high": 4,
+    "lead": 4,
+    "weak": 1,
+    "nonpositive": 3
+  },
+  "results": [
+    {
+      "arxiv_id": "demo.0001",
+      "title": "Evaluating Small Language Models for Clinical Information Extraction",
+      "url": "https://arxiv.org/abs/demo.0001",
+      "published": "2026-08-08T05:48:52.957505+00:00",
+      "categories": [
+        "cs.CL"
+      ],
+      "score": 20,
+      "band": "HIGH",
+      "matches": [
+        {
+          "kind": "interest",
+          "concept": "biomedical_information_extraction",
+          "term": "clinical information extraction",
+          "points": 8
+        },
+        {
+          "kind": "interest",
+          "concept": "small_language_models",
+          "term": "small language model",
+          "points": 7
+        },
+        {
+          "kind": "interest",
+          "concept": "biomedical",
+          "term": "clinical",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "arxiv_id": "demo.0010",
+      "title": "Longitudinal Electronic Health Record Summarization with Language Models",
+      "url": "https://arxiv.org/abs/demo.0010",
+      "published": "2026-08-08T05:48:52.957505+00:00",
+      "categories": [
+        "cs.CL"
+      ],
+      "score": 18,
+      "band": "HIGH",
+      "matches": [
+        {
+          "kind": "interest",
+          "concept": "clinical_nlp",
+          "term": "electronic health record",
+          "points": 8
+        },
+        {
+          "kind": "interest",
+          "concept": "long_context",
+          "term": "longitudinal",
+          "points": 5
+        },
+        {
+          "kind": "interest",
+          "concept": "biomedical",
+          "term": "health record",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "arxiv_id": "demo.0006",
+      "title": "A Benchmark for Hallucination Detection in Biomedical Language Models",
+      "url": "https://arxiv.org/abs/demo.0006",
+      "published": "2026-08-08T05:48:52.957505+00:00",
+      "categories": [
+        "cs.CL"
+      ],
+      "score": 17,
+      "band": "HIGH",
+      "matches": [
+        {
+          "kind": "interest",
+          "concept": "clinical_nlp",
+          "term": "medical language model",
+          "points": 8
+        },
+        {
+          "kind": "interest",
+          "concept": "evaluation_reliability",
+          "term": "benchmark",
+          "points": 4
+        },
+        {
+          "kind": "interest",
+          "concept": "biomedical",
+          "term": "biomedical",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "arxiv_id": "demo.0011",
+      "title": "Speculative Decoding for Efficient Language Model Inference",
+      "url": "https://arxiv.org/abs/demo.0011",
+      "published": "2026-08-08T05:48:52.957505+00:00",
+      "categories": [
+        "cs.CL"
+      ],
+      "score": 13,
+      "band": "HIGH",
+      "matches": [
+        {
+          "kind": "interest",
+          "concept": "small_language_models",
+          "term": "efficient language model",
+          "points": 7
+        },
+        {
+          "kind": "interest",
+          "concept": "inference_efficiency",
+          "term": "speculative decoding",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "arxiv_id": "demo.0008",
+      "title": "Calibration of Tool-Using Agents Under Distribution Shift",
+      "url": "https://arxiv.org/abs/demo.0008",
+      "published": "2026-08-08T05:48:52.957505+00:00",
+      "categories": [
+        "cs.AI"
+      ],
+      "score": 11,
+      "band": "LEAD",
+      "matches": [
+        {
+          "kind": "interest",
+          "concept": "agent_reliability",
+          "term": "tool using",
+          "points": 7
+        },
+        {
+          "kind": "interest",
+          "concept": "evaluation_reliability",
+          "term": "calibration",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "arxiv_id": "demo.0004",
+      "title": "Efficient Long-Context Inference with KV Cache Compression",
+      "url": "https://arxiv.org/abs/demo.0004",
+      "published": "2026-08-08T05:48:52.957505+00:00",
+      "categories": [
+        "cs.CL"
+      ],
+      "score": 11,
+      "band": "LEAD",
+      "matches": [
+        {
+          "kind": "interest",
+          "concept": "long_context",
+          "term": "long context",
+          "points": 5
+        },
+        {
+          "kind": "interest",
+          "concept": "inference_efficiency",
+          "term": "kv cache",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "arxiv_id": "demo.0002",
+      "title": "Failure Propagation in Tool-Using Language Models",
+      "url": "https://arxiv.org/abs/demo.0002",
+      "published": "2026-08-08T05:48:52.957505+00:00",
+      "categories": [
+        "cs.AI"
+      ],
+      "score": 11,
+      "band": "LEAD",
+      "matches": [
+        {
+          "kind": "interest",
+          "concept": "agent_reliability",
+          "term": "tool using",
+          "points": 7
+        },
+        {
+          "kind": "interest",
+          "concept": "evaluation_reliability",
+          "term": "failure",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "arxiv_id": "demo.0003",
+      "title": "Retrieval-Augmented Generation for Clinical Question Answering",
+      "url": "https://arxiv.org/abs/demo.0003",
+      "published": "2026-08-08T05:48:52.957505+00:00",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "score": 11,
+      "band": "LEAD",
+      "matches": [
+        {
+          "kind": "interest",
+          "concept": "retrieval_augmented_generation",
+          "term": "retrieval augmented",
+          "points": 6
+        },
+        {
+          "kind": "interest",
+          "concept": "biomedical",
+          "term": "clinical",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "arxiv_id": "demo.0005",
+      "title": "Retrieval-Augmented Navigation for Autonomous Robots",
+      "url": "https://arxiv.org/abs/demo.0005",
+      "published": "2026-08-08T05:48:52.957505+00:00",
+      "categories": [
+        "cs.AI",
+        "cs.RO"
+      ],
+      "score": 1,
+      "band": "WEAK",
+      "matches": [
+        {
+          "kind": "interest",
+          "concept": "retrieval_augmented_generation",
+          "term": "retrieval augmented",
+          "points": 6
+        },
+        {
+          "kind": "negative",
+          "concept": "robotics",
+          "term": "navigation",
+          "points": -5
+        }
+      ]
+    },
+    {
+      "arxiv_id": "demo.0009",
+      "title": "Dense Retrieval for Large-Scale Recommendation Systems",
+      "url": "https://arxiv.org/abs/demo.0009",
+      "published": "2026-08-08T05:48:52.957505+00:00",
+      "categories": [
+        "cs.IR"
+      ],
+      "score": -3,
+      "band": "NONE",
+      "matches": [
+        {
+          "kind": "negative",
+          "concept": "recommendation_systems",
+          "term": "recommendation system",
+          "points": -3
+        }
+      ]
+    },
+    {
+      "arxiv_id": "demo.0012",
+      "title": "A New Transformer Architecture for Image Generation",
+      "url": "https://arxiv.org/abs/demo.0012",
+      "published": "2026-08-08T05:48:52.957505+00:00",
+      "categories": [
+        "cs.CV"
+      ],
+      "score": -4,
+      "band": "NONE",
+      "matches": [
+        {
+          "kind": "negative",
+          "concept": "vision_only",
+          "term": "image generation",
+          "points": -4
+        }
+      ]
+    },
+    {
+      "arxiv_id": "demo.0007",
+      "title": "Object Detection for Autonomous Driving Under Adverse Weather",
+      "url": "https://arxiv.org/abs/demo.0007",
+      "published": "2026-08-08T05:48:52.957505+00:00",
+      "categories": [
+        "cs.CV"
+      ],
+      "score": -10,
+      "band": "NONE",
+      "matches": [
+        {
+          "kind": "negative",
+          "concept": "autonomous_driving",
+          "term": "autonomous driving",
+          "points": -6
+        },
+        {
+          "kind": "negative",
+          "concept": "vision_only",
+          "term": "object detection",
+          "points": -4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "notes": [
+    "Prototype configuration only.",
+    "Each concept scores at most once per title.",
+    "Weights are intentionally provisional; usage should determine revision."
+  ],
+  "interests": {
+    "clinical_nlp": {
+      "weight": 8,
+      "terms": [
+        "clinical nlp",
+        "clinical language model",
+        "medical language model",
+        "electronic health record",
+        "ehr",
+        "clinical note",
+        "clinical text"
+      ]
+    },
+    "biomedical_information_extraction": {
+      "weight": 8,
+      "terms": [
+        "biomedical information extraction",
+        "clinical information extraction",
+        "named entity recognition",
+        "relation extraction",
+        "biomedical nlp"
+      ]
+    },
+    "small_language_models": {
+      "weight": 7,
+      "terms": [
+        "small language model",
+        "compact language model",
+        "efficient language model",
+        "small language models"
+      ]
+    },
+    "agent_reliability": {
+      "weight": 7,
+      "terms": [
+        "agent reliability",
+        "tool using",
+        "tool-using",
+        "failure propagation",
+        "agent evaluation",
+        "agentic"
+      ]
+    },
+    "retrieval_augmented_generation": {
+      "weight": 6,
+      "terms": [
+        "rag",
+        "retrieval augmented",
+        "retrieval-augmented"
+      ]
+    },
+    "long_context": {
+      "weight": 5,
+      "terms": [
+        "long context",
+        "long-context",
+        "context window",
+        "longitudinal"
+      ]
+    },
+    "inference_efficiency": {
+      "weight": 6,
+      "terms": [
+        "efficient inference",
+        "inference efficiency",
+        "kv cache",
+        "speculative decoding",
+        "quantization",
+        "token efficiency"
+      ]
+    },
+    "evaluation_reliability": {
+      "weight": 4,
+      "terms": [
+        "evaluation",
+        "benchmark",
+        "calibration",
+        "hallucination",
+        "uncertainty",
+        "robustness",
+        "failure"
+      ]
+    },
+    "biomedical": {
+      "weight": 5,
+      "terms": [
+        "biomedical",
+        "clinical",
+        "medical",
+        "health record"
+      ]
+    }
+  },
+  "negative_signals": {
+    "robotics": {
+      "weight": -5,
+      "terms": [
+        "robot",
+        "robotic",
+        "navigation"
+      ]
+    },
+    "autonomous_driving": {
+      "weight": -6,
+      "terms": [
+        "autonomous driving",
+        "autonomous vehicle"
+      ]
+    },
+    "vision_only": {
+      "weight": -4,
+      "terms": [
+        "image generation",
+        "object detection",
+        "image segmentation"
+      ]
+    },
+    "recommendation_systems": {
+      "weight": -3,
+      "terms": [
+        "recommendation system",
+        "recommender system"
+      ]
+    }
+  }
+}
