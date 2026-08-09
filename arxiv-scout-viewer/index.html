@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>arXiv Scout Viewer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div>
+      <p class="eyebrow">LOCAL JSON REVIEW TOOL</p>
+      <h1>arXiv Scout Viewer</h1>
+      <p class="subtitle">Inspect title-scout runs, review scoring provenance, and capture human evaluations.</p>
+    </div>
+    <div class="header-actions">
+      <button id="uploadButton" class="button primary" type="button">Choose JSON</button>
+      <input id="fileInput" type="file" accept="application/json,.json" hidden />
+    </div>
+  </header>
+
+  <main class="app-shell">
+    <section id="dropZone" class="drop-zone" aria-label="JSON upload area">
+      <div>
+        <strong>Drop a scout-run JSON file here</strong>
+        <span>or use “Choose JSON”. Files are parsed locally in your browser.</span>
+      </div>
+    </section>
+
+    <section id="errorBanner" class="error-banner hidden" role="alert"></section>
+
+    <section id="workspace" class="hidden">
+      <section class="run-panel card">
+        <div class="run-heading">
+          <div>
+            <div class="run-title-row">
+              <h2 id="runId">Run</h2>
+              <span id="schemaBadge" class="badge neutral"></span>
+            </div>
+            <p id="runMeta" class="muted"></p>
+          </div>
+          <div class="run-actions">
+            <button id="runDetailsButton" class="button secondary" type="button">Run details</button>
+            <button id="statisticsButton" class="button secondary" type="button">Statistics</button>
+          </div>
+        </div>
+
+        <div id="summaryGrid" class="summary-grid"></div>
+      </section>
+
+      <section class="controls card">
+        <div class="control-row search-row">
+          <label class="search-control">
+            <span class="sr-only">Search results</span>
+            <input id="searchInput" type="search" placeholder="Search titles, IDs, categories, concepts, or matched terms…" />
+          </label>
+          <button id="columnsButton" class="button secondary" type="button">Columns</button>
+          <button id="filtersButton" class="button secondary" type="button">Filters <span id="activeFilterCount" class="count-badge hidden">0</span></button>
+          <button id="exportButton" class="button secondary" type="button">Export</button>
+          <button id="resetButton" class="button ghost" type="button">Reset</button>
+        </div>
+
+        <div id="bandTabs" class="band-tabs" role="group" aria-label="Band filter"></div>
+      </section>
+
+      <section class="table-card card">
+        <div class="table-toolbar">
+          <p id="resultSummary" class="muted"></p>
+          <label class="page-size-control">Rows
+            <select id="pageSizeSelect">
+              <option value="25">25</option>
+              <option value="50" selected>50</option>
+              <option value="100">100</option>
+              <option value="250">250</option>
+            </select>
+          </label>
+        </div>
+        <div class="table-wrap">
+          <table id="resultsTable">
+            <thead id="tableHead"></thead>
+            <tbody id="tableBody"></tbody>
+          </table>
+        </div>
+        <div class="pagination">
+          <button id="previousPage" class="button secondary small" type="button">Previous</button>
+          <span id="pageStatus" class="muted"></span>
+          <button id="nextPage" class="button secondary small" type="button">Next</button>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <div id="drawerBackdrop" class="drawer-backdrop hidden"></div>
+  <aside id="detailDrawer" class="detail-drawer" aria-hidden="true" aria-label="Result details">
+    <div class="drawer-header">
+      <div>
+        <p class="eyebrow">RESULT DETAIL</p>
+        <h2 id="detailTitle">Result</h2>
+      </div>
+      <button id="closeDrawerButton" class="icon-button" type="button" aria-label="Close detail panel">×</button>
+    </div>
+    <div id="drawerBody" class="drawer-body"></div>
+  </aside>
+
+  <dialog id="columnsDialog" class="modal">
+    <form method="dialog" class="modal-shell">
+      <div class="modal-header">
+        <div>
+          <p class="eyebrow">TABLE CONFIGURATION</p>
+          <h2>Columns</h2>
+        </div>
+        <button class="icon-button" value="cancel" aria-label="Close">×</button>
+      </div>
+      <p class="muted">Choose visible columns and move them into your preferred order.</p>
+      <div id="columnList" class="column-list"></div>
+      <div class="modal-footer split">
+        <div>
+          <button id="selectDefaultColumns" class="button ghost" type="button">Defaults</button>
+          <button id="selectAllColumns" class="button ghost" type="button">Select all</button>
+        </div>
+        <button class="button primary" value="done">Done</button>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog id="filtersDialog" class="modal">
+    <form method="dialog" class="modal-shell">
+      <div class="modal-header">
+        <div>
+          <p class="eyebrow">RESULT FILTERS</p>
+          <h2>Filters</h2>
+        </div>
+        <button class="icon-button" value="cancel" aria-label="Close">×</button>
+      </div>
+
+      <div class="filter-grid">
+        <label>
+          <span>Score</span>
+          <select id="scoreModeFilter">
+            <option value="all">All scores</option>
+            <option value="positive">Positive (&gt; 0)</option>
+            <option value="zero">Zero (= 0)</option>
+            <option value="negative">Negative (&lt; 0)</option>
+          </select>
+        </label>
+
+        <label>
+          <span>Matched concept</span>
+          <select id="conceptFilter">
+            <option value="all">All concepts</option>
+          </select>
+        </label>
+
+        <label>
+          <span>Category</span>
+          <select id="categoryFilter">
+            <option value="all">All categories</option>
+          </select>
+        </label>
+
+        <label>
+          <span>My assessment</span>
+          <select id="assessmentFilter">
+            <option value="all">All assessments</option>
+            <option value="unreviewed">Unreviewed</option>
+            <option value="relevant">Relevant</option>
+            <option value="maybe">Maybe</option>
+            <option value="not_relevant">Not relevant</option>
+            <option value="missed">Missed by scorer</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="modal-footer split">
+        <button id="clearAdvancedFilters" class="button ghost" type="button">Clear filters</button>
+        <button class="button primary" value="done">Done</button>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog id="runDetailsDialog" class="modal">
+    <form method="dialog" class="modal-shell wide-modal">
+      <div class="modal-header">
+        <div>
+          <p class="eyebrow">SOURCE RUN</p>
+          <h2>Run details</h2>
+        </div>
+        <button class="icon-button" value="cancel" aria-label="Close">×</button>
+      </div>
+      <div id="runDetailsBody"></div>
+      <div class="modal-footer">
+        <button class="button primary" value="done">Done</button>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog id="statisticsDialog" class="modal">
+    <form method="dialog" class="modal-shell wide-modal">
+      <div class="modal-header">
+        <div>
+          <p class="eyebrow">RUN REVIEW</p>
+          <h2>Statistics</h2>
+        </div>
+        <button class="icon-button" value="cancel" aria-label="Close">×</button>
+      </div>
+      <div id="statisticsBody"></div>
+      <div class="modal-footer">
+        <button class="button primary" value="done">Done</button>
+      </div>
+    </form>
+  </dialog>
+
+  <dialog id="exportDialog" class="modal">
+    <form method="dialog" class="modal-shell">
+      <div class="modal-header">
+        <div>
+          <p class="eyebrow">DOWNLOAD</p>
+          <h2>Export</h2>
+        </div>
+        <button class="icon-button" value="cancel" aria-label="Close">×</button>
+      </div>
+      <div class="export-options">
+        <button id="exportFilteredButton" class="export-option" type="button">
+          <strong>Filtered results</strong>
+          <span>Export the currently filtered result set as JSON.</span>
+        </button>
+        <button id="exportEvaluationsButton" class="export-option" type="button">
+          <strong>Human evaluations</strong>
+          <span>Export your assessments and notes with source scoring context.</span>
+        </button>
+      </div>
+      <div class="modal-footer">
+        <button class="button secondary" value="done">Close</button>
+      </div>
+    </form>
+  </dialog>
+
+  <template id="emptyStateTemplate">
+    <tr>
+      <td class="empty-state" colspan="20">No results match the current filters.</td>
+    </tr>
+  </template>
+
+  <script src="app.js"></script>
+</body>
+</html>
