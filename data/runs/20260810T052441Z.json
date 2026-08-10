@@ -1,0 +1,2091 @@
+{
+  "schema_version": 1,
+  "run_id": "20260810T052441Z",
+  "created_at": "2026-08-10T05:24:41.807343+00:00",
+  "source": "arxiv_api",
+  "parameters": {
+    "categories": [
+      "cs.AI",
+      "cs.CL"
+    ],
+    "max_results": 2000,
+    "since_hours": 72,
+    "config": "/workspaces/arxiv-title-scout/interests.json"
+  },
+  "counts": {
+    "retrieved": 142,
+    "positive_score": 24,
+    "high": 1,
+    "lead": 7,
+    "weak": 16,
+    "nonpositive": 118
+  },
+  "results": [
+    {
+      "arxiv_id": "2608.07458v1",
+      "title": "CoinRAG: Contextualized Information Nugget KV Cache Reuse for Long-Context RAG",
+      "url": "https://arxiv.org/abs/2608.07458v1",
+      "published": "2026-08-07T17:51:49Z",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.IR",
+        "cs.LG"
+      ],
+      "score": 17,
+      "band": "HIGH",
+      "matches": [
+        {
+          "kind": "interest",
+          "concept": "retrieval_augmented_generation",
+          "term": "rag",
+          "points": 6
+        },
+        {
+          "kind": "interest",
+          "concept": "long_context",
+          "term": "long context",
+          "points": 5
+        },
+        {
+          "kind": "interest",
+          "concept": "inference_efficiency",
+          "term": "kv cache",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2608.07023v1",
+      "title": "An Agentic Hybrid Top-Down and Bottom-Up Approach to Knowledge Graph Generation",
+      "url": "https://arxiv.org/abs/2608.07023v1",
+      "published": "2026-08-07T09:32:25Z",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "score": 7,
+      "band": "LEAD",
+      "matches": [
+        {
+          "kind": "interest",
+          "concept": "agent_reliability",
+          "term": "agentic",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2608.06961v1",
+      "title": "CAi Copilot: Reducing Operational Workload in Molecular Design through Intent-Driven Agentic Workflows",
+      "url": "https://arxiv.org/abs/2608.06961v1",
+      "published": "2026-08-07T08:36:59Z",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "score": 7,
+      "band": "LEAD",
+      "matches": [
+        {
+          "kind": "interest",
+          "concept": "agent_reliability",
+          "term": "agentic",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2608.07214v1",
+      "title": "Toward a Causal Data Management Ecosystem for Decision Making and Agentic AI",
+      "url": "https://arxiv.org/abs/2608.07214v1",
+      "published": "2026-08-07T13:30:17Z",
+      "categories": [
+        "cs.DB",
+        "cs.AI",
+        "eess.SY"
+      ],
+      "score": 7,
+      "band": "LEAD",
+      "matches": [
+        {
+          "kind": "interest",
+          "concept": "agent_reliability",
+          "term": "agentic",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2608.07371v1",
+      "title": "Trajectory-Relative Hindsight Distillation for Agentic Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2608.07371v1",
+      "published": "2026-08-07T16:12:58Z",
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "score": 7,
+      "band": "LEAD",
+      "matches": [
+        {
+          "kind": "interest",
+          "concept": "agent_reliability",
+          "term": "agentic",
+          "points": 7
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2608.07006v1",
+      "title": "Does More Retrieved Evidence Help Visual Retrieval-Augmented Generation with Diffusion Language Models?",
+      "url": "https://arxiv.org/abs/2608.07006v1",
+      "published": "2026-08-07T09:20:40Z",
+      "categories": [
+        "cs.CL",
+        "cs.CV"
+      ],
+      "score": 6,
+      "band": "LEAD",
+      "matches": [
+        {
+          "kind": "interest",
+          "concept": "retrieval_augmented_generation",
+          "term": "retrieval augmented",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2608.07066v1",
+      "title": "PTQ4SNN: Membrane-Aware Post-Training Quantization for Spiking Neural Networks",
+      "url": "https://arxiv.org/abs/2608.07066v1",
+      "published": "2026-08-07T10:16:25Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "score": 6,
+      "band": "LEAD",
+      "matches": [
+        {
+          "kind": "interest",
+          "concept": "inference_efficiency",
+          "term": "quantization",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2608.07019v1",
+      "title": "ReQuant: Fixed-Grid Discrete Refinement for Post-Training Quantization",
+      "url": "https://arxiv.org/abs/2608.07019v1",
+      "published": "2026-08-07T09:27:14Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "score": 6,
+      "band": "LEAD",
+      "matches": [
+        {
+          "kind": "interest",
+          "concept": "inference_efficiency",
+          "term": "quantization",
+          "points": 6
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2608.07202v1",
+      "title": "Authoring and Management of Transparent Research Integrity Assessments of Randomised Clinical Trial Publications Using LLM-assisted Tools and Provenance Knowledge Graphs",
+      "url": "https://arxiv.org/abs/2608.07202v1",
+      "published": "2026-08-07T13:17:56Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "score": 5,
+      "band": "WEAK",
+      "matches": [
+        {
+          "kind": "interest",
+          "concept": "biomedical",
+          "term": "clinical",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2608.06869v1",
+      "title": "DAEP: Difficulty-Aware Evidence Planning for Medical Video Corpus Temporal Answer Grounding",
+      "url": "https://arxiv.org/abs/2608.06869v1",
+      "published": "2026-08-07T06:49:55Z",
+      "categories": [
+        "cs.CV",
+        "cs.CL"
+      ],
+      "score": 5,
+      "band": "WEAK",
+      "matches": [
+        {
+          "kind": "interest",
+          "concept": "biomedical",
+          "term": "medical",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2608.07418v1",
+      "title": "ResidencyRL: Reinforcement Learning in Simulated Clinical Environments",
+      "url": "https://arxiv.org/abs/2608.07418v1",
+      "published": "2026-08-07T17:04:41Z",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "score": 5,
+      "band": "WEAK",
+      "matches": [
+        {
+          "kind": "interest",
+          "concept": "biomedical",
+          "term": "clinical",
+          "points": 5
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2608.07335v1",
+      "title": "Aftab: A Comprehensive Benchmark of CNN Encoders and Advanced Value Functions in Parallelized Q-Networks",
+      "url": "https://arxiv.org/abs/2608.07335v1",
+      "published": "2026-08-07T15:29:15Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "score": 4,
+      "band": "WEAK",
+      "matches": [
+        {
+          "kind": "interest",
+          "concept": "evaluation_reliability",
+          "term": "benchmark",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2608.07439v1",
+      "title": "An Exploratory Evaluation of LLM-Assisted Rewriting of Moderate-Complexity Financial Sentences for DisCoCat-Based Sentiment Analysis",
+      "url": "https://arxiv.org/abs/2608.07439v1",
+      "published": "2026-08-07T17:23:01Z",
+      "categories": [
+        "cs.CL",
+        "quant-ph"
+      ],
+      "score": 4,
+      "band": "WEAK",
+      "matches": [
+        {
+          "kind": "interest",
+          "concept": "evaluation_reliability",
+          "term": "evaluation",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2608.07038v1",
+      "title": "Beyond Text Matching: Towards Reference-Free Evaluation for Human-Oriented Binary Reverse Engineering",
+      "url": "https://arxiv.org/abs/2608.07038v1",
+      "published": "2026-08-07T09:48:25Z",
+      "categories": [
+        "cs.SE",
+        "cs.AI",
+        "cs.CR"
+      ],
+      "score": 4,
+      "band": "WEAK",
+      "matches": [
+        {
+          "kind": "interest",
+          "concept": "evaluation_reliability",
+          "term": "evaluation",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2608.07400v1",
+      "title": "FinRank: An Evidence-Grounded Benchmark for Financial Question Answering and Retrieval over SEC Filings",
+      "url": "https://arxiv.org/abs/2608.07400v1",
+      "published": "2026-08-07T16:45:39Z",
+      "categories": [
+        "cs.AI",
+        "cs.DB",
+        "econ.GN",
+        "q-fin.GN"
+      ],
+      "score": 4,
+      "band": "WEAK",
+      "matches": [
+        {
+          "kind": "interest",
+          "concept": "evaluation_reliability",
+          "term": "benchmark",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2608.07411v1",
+      "title": "GeoBenchLLM: A Comprehensive Benchmark for Evaluating LLMs on Geo-Related Tasks",
+      "url": "https://arxiv.org/abs/2608.07411v1",
+      "published": "2026-08-07T16:58:04Z",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.IR",
+        "cs.LG"
+      ],
+      "score": 4,
+      "band": "WEAK",
+      "matches": [
+        {
+          "kind": "interest",
+          "concept": "evaluation_reliability",
+          "term": "benchmark",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2608.07370v1",
+      "title": "LitTraceQA: A Benchmark for Multi-Stage Grounding and Verification in Scientific Question Answering",
+      "url": "https://arxiv.org/abs/2608.07370v1",
+      "published": "2026-08-07T16:11:52Z",
+      "categories": [
+        "cs.CL"
+      ],
+      "score": 4,
+      "band": "WEAK",
+      "matches": [
+        {
+          "kind": "interest",
+          "concept": "evaluation_reliability",
+          "term": "benchmark",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2608.06909v1",
+      "title": "Long-Horizon Agent Trajectory Attribution: A Unified Benchmark and Fine-Grained Annotation Framework",
+      "url": "https://arxiv.org/abs/2608.06909v1",
+      "published": "2026-08-07T07:43:12Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "score": 4,
+      "band": "WEAK",
+      "matches": [
+        {
+          "kind": "interest",
+          "concept": "evaluation_reliability",
+          "term": "benchmark",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2608.07251v1",
+      "title": "Reading Copom's Tone: A Weighted LLM Framework for Hawkish-Dovish Sentiment, Forward Guidance, and Uncertainty",
+      "url": "https://arxiv.org/abs/2608.07251v1",
+      "published": "2026-08-07T14:08:31Z",
+      "categories": [
+        "econ.GN",
+        "cs.AI"
+      ],
+      "score": 4,
+      "band": "WEAK",
+      "matches": [
+        {
+          "kind": "interest",
+          "concept": "evaluation_reliability",
+          "term": "uncertainty",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2608.07243v1",
+      "title": "Recipes for Creativity: Iterative Generation and Evaluation in Large Language Models",
+      "url": "https://arxiv.org/abs/2608.07243v1",
+      "published": "2026-08-07T14:02:36Z",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.NE"
+      ],
+      "score": 4,
+      "band": "WEAK",
+      "matches": [
+        {
+          "kind": "interest",
+          "concept": "evaluation_reliability",
+          "term": "evaluation",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2608.07302v1",
+      "title": "Same Attention, Different Truths: Put Logit-Lens over Visual Attention to Detect and Mitigate LVLM Object Hallucination",
+      "url": "https://arxiv.org/abs/2608.07302v1",
+      "published": "2026-08-07T14:56:12Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "score": 4,
+      "band": "WEAK",
+      "matches": [
+        {
+          "kind": "interest",
+          "concept": "evaluation_reliability",
+          "term": "hallucination",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2608.06931v1",
+      "title": "Science Edge Evaluation: SEE the Missing Step Toward Real Scientific Discovery",
+      "url": "https://arxiv.org/abs/2608.06931v1",
+      "published": "2026-08-07T08:06:31Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "score": 4,
+      "band": "WEAK",
+      "matches": [
+        {
+          "kind": "interest",
+          "concept": "evaluation_reliability",
+          "term": "evaluation",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2608.07341v1",
+      "title": "Zero Gap Is Not Restoration: Stratified Per-Question Probability Evaluation and Step-wise Mitigation of Benchmark Contamination",
+      "url": "https://arxiv.org/abs/2608.07341v1",
+      "published": "2026-08-07T15:37:03Z",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "score": 4,
+      "band": "WEAK",
+      "matches": [
+        {
+          "kind": "interest",
+          "concept": "evaluation_reliability",
+          "term": "evaluation",
+          "points": 4
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2608.07340v1",
+      "title": "H2AL: Hyperbolic Hierarchy-aware Aggregative Learning for Registration-based Few-shot Medical Image Segmentation",
+      "url": "https://arxiv.org/abs/2608.07340v1",
+      "published": "2026-08-07T15:36:53Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "score": 1,
+      "band": "WEAK",
+      "matches": [
+        {
+          "kind": "interest",
+          "concept": "biomedical",
+          "term": "medical",
+          "points": 5
+        },
+        {
+          "kind": "negative",
+          "concept": "vision_only",
+          "term": "image segmentation",
+          "points": -4
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2608.07275v1",
+      "title": "A Finite E-Group of Nilpotency Class Three",
+      "url": "https://arxiv.org/abs/2608.07275v1",
+      "published": "2026-08-07T14:34:46Z",
+      "categories": [
+        "math.GR",
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07148v1",
+      "title": "A MARL Centered Reference Architecture for Large Language Model Augmentation in Smart Manufacturing",
+      "url": "https://arxiv.org/abs/2608.07148v1",
+      "published": "2026-08-07T12:10:08Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07427v1",
+      "title": "A Picture is Worth a Thousand Tokens: How Vision Language Models Cut AI Energy Costs While Improving Accuracy",
+      "url": "https://arxiv.org/abs/2608.07427v1",
+      "published": "2026-08-07T17:14:45Z",
+      "categories": [
+        "cs.AI",
+        "cs.PF"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07037v1",
+      "title": "Accounting Graph Transformer for Short-History Multi-KPI Forecasting in Small Businesses",
+      "url": "https://arxiv.org/abs/2608.07037v1",
+      "published": "2026-08-07T09:47:44Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07169v1",
+      "title": "Agent Memory Distillation: Empowering Small LLM Agents with Hierarchical Teacher Memory",
+      "url": "https://arxiv.org/abs/2608.07169v1",
+      "published": "2026-08-07T12:43:00Z",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07346v1",
+      "title": "An End-to-End Agent Auditing Engine",
+      "url": "https://arxiv.org/abs/2608.07346v1",
+      "published": "2026-08-07T15:44:12Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07250v1",
+      "title": "Artificial Intelligence Can Match Domain Experts in Evidence Extraction and Critical Appraisal of Microbial Oncogenesis Research Publications",
+      "url": "https://arxiv.org/abs/2608.07250v1",
+      "published": "2026-08-07T14:07:57Z",
+      "categories": [
+        "q-bio.QM",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.06933v1",
+      "title": "Ask-E: An Environment for Calibrated Question Generation",
+      "url": "https://arxiv.org/abs/2608.06933v1",
+      "published": "2026-08-07T08:06:38Z",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07359v1",
+      "title": "Assessing AI-generated music detection in real-world broadcast monitoring",
+      "url": "https://arxiv.org/abs/2608.07359v1",
+      "published": "2026-08-07T15:58:04Z",
+      "categories": [
+        "eess.AS",
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07065v1",
+      "title": "AutoIntervene: Calibrated Intervention for Action-Chunking Imitation Learning Policies",
+      "url": "https://arxiv.org/abs/2608.07065v1",
+      "published": "2026-08-07T10:14:29Z",
+      "categories": [
+        "cs.RO",
+        "cs.AI",
+        "cs.CV",
+        "cs.HC",
+        "cs.LG"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07138v1",
+      "title": "Autonomous discovery of accelerator commissioning algorithms",
+      "url": "https://arxiv.org/abs/2608.07138v1",
+      "published": "2026-08-07T11:56:51Z",
+      "categories": [
+        "physics.acc-ph",
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.06849v1",
+      "title": "Autonomy-of-Heads: Data-Free Sparse Attention from Frozen Query-Key Geometry",
+      "url": "https://arxiv.org/abs/2608.06849v1",
+      "published": "2026-08-07T06:18:18Z",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.06993v1",
+      "title": "Beyond Foundation Models: Dimension-Aware Neural Architecture Search with Small-Data Representation Models for Cryocooler Lifetime Prediction",
+      "url": "https://arxiv.org/abs/2608.06993v1",
+      "published": "2026-08-07T09:11:45Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07086v1",
+      "title": "Beyond Isolation: Unlocking Reinforcement Learning Component Synergy for Sample-Efficient Continuous Control",
+      "url": "https://arxiv.org/abs/2608.07086v1",
+      "published": "2026-08-07T10:38:31Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07220v1",
+      "title": "Beyond the Black Box: Interpretable Models of Human Randomisation Failures",
+      "url": "https://arxiv.org/abs/2608.07220v1",
+      "published": "2026-08-07T13:36:55Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07440v1",
+      "title": "Blast Radius",
+      "url": "https://arxiv.org/abs/2608.07440v1",
+      "published": "2026-08-07T17:23:53Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.06940v1",
+      "title": "Blind to the Pivotal Vote: Aggregate Independence Metrics Miss Where Verification Actually Helps",
+      "url": "https://arxiv.org/abs/2608.06940v1",
+      "published": "2026-08-07T08:14:46Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07056v1",
+      "title": "BONSAI: Evolvability-Guided Tree Search over Skills",
+      "url": "https://arxiv.org/abs/2608.07056v1",
+      "published": "2026-08-07T10:04:52Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.06860v1",
+      "title": "Bridging the Gap Between Hyperdimensional Computing and Kernel Methods via the Nyström Method",
+      "url": "https://arxiv.org/abs/2608.06860v1",
+      "published": "2026-08-07T06:37:28Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.06908v1",
+      "title": "Calibrating WEAT Against Anisotropy: ZCA Whitening as a Geometric Pre-Processing Step for Embedding Association Tests",
+      "url": "https://arxiv.org/abs/2608.06908v1",
+      "published": "2026-08-07T07:42:26Z",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.CY",
+        "cs.LG"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.06967v1",
+      "title": "Can Language Models Imagine Without Seeing? Ekphrasis: Measuring Visual Creative Ideation in Text-Only LLMs",
+      "url": "https://arxiv.org/abs/2608.06967v1",
+      "published": "2026-08-07T08:44:00Z",
+      "categories": [
+        "cs.CL"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.06871v1",
+      "title": "CEDAR: Agent-Orchestrated Tree Search for Goal-Directed Optimization of Complex Systems",
+      "url": "https://arxiv.org/abs/2608.06871v1",
+      "published": "2026-08-07T06:54:58Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07424v1",
+      "title": "CoBa: Cost-Effective Test-Time Scaling via Compute-Balanced Routing",
+      "url": "https://arxiv.org/abs/2608.07424v1",
+      "published": "2026-08-07T17:12:13Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.06977v1",
+      "title": "Confirming Our Biases? Evaluating the Capabilities, Risks, and Societal Impact of Large Language Models",
+      "url": "https://arxiv.org/abs/2608.06977v1",
+      "published": "2026-08-07T08:54:27Z",
+      "categories": [
+        "cs.CL"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.06824v1",
+      "title": "Control-Anchored Residual Flow Matching Conditioned on Gene Geometry for Virtual Cell Perturbation Modeling",
+      "url": "https://arxiv.org/abs/2608.06824v1",
+      "published": "2026-08-07T05:29:00Z",
+      "categories": [
+        "q-bio.MN",
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07460v1",
+      "title": "CreativeInstruct: Scalably Teaching LLMs to Balance Quality, Creativity, and Diversity",
+      "url": "https://arxiv.org/abs/2608.07460v1",
+      "published": "2026-08-07T17:55:48Z",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.06955v1",
+      "title": "Critical Acclaim Orientation in Large Language Models: Evidence from Film Preference Elicitation",
+      "url": "https://arxiv.org/abs/2608.06955v1",
+      "published": "2026-08-07T08:32:03Z",
+      "categories": [
+        "cs.AI",
+        "cs.CY"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07364v1",
+      "title": "Curriculum as Code: An AI-Assisted Architecture for Instructional Design in STEM Education",
+      "url": "https://arxiv.org/abs/2608.07364v1",
+      "published": "2026-08-07T16:09:10Z",
+      "categories": [
+        "cs.AI",
+        "cs.CY"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.06922v1",
+      "title": "Deal Me Maybe: The Role of Emotions in Multi-Agent Negotiation",
+      "url": "https://arxiv.org/abs/2608.06922v1",
+      "published": "2026-08-07T07:53:53Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.06938v1",
+      "title": "Debias in Text, Believe Your Eyes: Text-Anchored Cross-Modal Transfer for Visual Counter-Commonsense Reasoning",
+      "url": "https://arxiv.org/abs/2608.06938v1",
+      "published": "2026-08-07T08:10:31Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.06994v1",
+      "title": "Decoupling Intention from Trajectory: A Representational Deduction Framework for World Action Models",
+      "url": "https://arxiv.org/abs/2608.06994v1",
+      "published": "2026-08-07T09:12:15Z",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.06990v1",
+      "title": "Density-aware Hierarchical Clustering Based on Element-Categorized Connection Subgraphs",
+      "url": "https://arxiv.org/abs/2608.06990v1",
+      "published": "2026-08-07T09:09:13Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07147v1",
+      "title": "DiDPO: Diff-in-Diff Policy Optimization for Coding Agent Training",
+      "url": "https://arxiv.org/abs/2608.07147v1",
+      "published": "2026-08-07T12:07:12Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07430v1",
+      "title": "Diffusion LLMs as Targets and Adversaries: Mechanistic Safety Exploits",
+      "url": "https://arxiv.org/abs/2608.07430v1",
+      "published": "2026-08-07T17:17:18Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07067v1",
+      "title": "DocMemo: Dynamic Evidence Discovery via Probabilistic Memory-Guided Retrieval for Multi-Modal Document Understanding",
+      "url": "https://arxiv.org/abs/2608.07067v1",
+      "published": "2026-08-07T10:16:56Z",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.IR",
+        "cs.MM"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.06949v1",
+      "title": "Does Splitting a Triage Decision Across Agents Hide Bias or Help Catch It? A Multi-Agent Simulation Study of LLM-Based Resource Allocation Under Audit Capacity Constraints",
+      "url": "https://arxiv.org/abs/2608.06949v1",
+      "published": "2026-08-07T08:25:53Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07299v1",
+      "title": "EliSeg: Verified Target Construction for Report-Grounded Abnormality Segmentation",
+      "url": "https://arxiv.org/abs/2608.07299v1",
+      "published": "2026-08-07T14:52:35Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07196v1",
+      "title": "EMAS: Stabilizing Multi-Agent System Evolution through Evidence-Guided Revision",
+      "url": "https://arxiv.org/abs/2608.07196v1",
+      "published": "2026-08-07T13:11:42Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.06953v1",
+      "title": "Explicit, Not Longer: What Makes Epistemic Stance Survive Memory Compression",
+      "url": "https://arxiv.org/abs/2608.06953v1",
+      "published": "2026-08-07T08:28:12Z",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.06912v1",
+      "title": "Fast LapSum: Exact Differentiable Top-k at Million Scale",
+      "url": "https://arxiv.org/abs/2608.06912v1",
+      "published": "2026-08-07T07:44:35Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07007v1",
+      "title": "FedLBW: A Loss-Based Weighting Strategy for Federated Learning on Non-IID Data in Wireless Networks",
+      "url": "https://arxiv.org/abs/2608.07007v1",
+      "published": "2026-08-07T09:21:37Z",
+      "categories": [
+        "cs.AI",
+        "cs.DC",
+        "cs.ET",
+        "cs.LG"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.06876v1",
+      "title": "FedVAR: Prototype-Aligned Federated Framework for Video Anomaly Recognition",
+      "url": "https://arxiv.org/abs/2608.06876v1",
+      "published": "2026-08-07T07:01:42Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.DC",
+        "cs.LG"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.06969v1",
+      "title": "Finding Usable Weight Mechanisms with Tiled SVD",
+      "url": "https://arxiv.org/abs/2608.06969v1",
+      "published": "2026-08-07T08:44:47Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07437v1",
+      "title": "Fisher-R1: Training LLM Agents for Reliable Hypothesis Testing",
+      "url": "https://arxiv.org/abs/2608.07437v1",
+      "published": "2026-08-07T17:22:00Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07161v1",
+      "title": "Fluid-DiT: Graph-Free Diffusion Transformers for Fluid Flow Simulations Learning",
+      "url": "https://arxiv.org/abs/2608.07161v1",
+      "published": "2026-08-07T12:28:45Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "cs.CE"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.06894v1",
+      "title": "From Points to Edges: Edge-Conditioned Spectral Operators for Physics-Sensitive PDE Learning",
+      "url": "https://arxiv.org/abs/2608.06894v1",
+      "published": "2026-08-07T07:26:30Z",
+      "categories": [
+        "cs.AI",
+        "cs.CV"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07230v1",
+      "title": "From probability to causality in probabilistic logic programming",
+      "url": "https://arxiv.org/abs/2608.07230v1",
+      "published": "2026-08-07T13:46:43Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07213v1",
+      "title": "From Test-Time Scaling to Reusable Memory: Measuring Crystallization in Text-to-SQL",
+      "url": "https://arxiv.org/abs/2608.07213v1",
+      "published": "2026-08-07T13:28:27Z",
+      "categories": [
+        "cs.CL"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07294v1",
+      "title": "FUSE: Feature-Wise Unified Specialization with Cross-Column Exchange for Mixed-Type Tabular Flow Matching",
+      "url": "https://arxiv.org/abs/2608.07294v1",
+      "published": "2026-08-07T14:50:12Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.06861v1",
+      "title": "Gated-BEPO: Confidence-Gated Bellman Credit Assignment for Large Language Model Agents",
+      "url": "https://arxiv.org/abs/2608.06861v1",
+      "published": "2026-08-07T06:38:12Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07282v1",
+      "title": "Gaze Behavior in Visual World Experiments Can be Modeled With Off-the-shelf Language-Vision Encoders",
+      "url": "https://arxiv.org/abs/2608.07282v1",
+      "published": "2026-08-07T14:42:51Z",
+      "categories": [
+        "cs.CL",
+        "cs.CV"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07353v1",
+      "title": "Geo-Spatial Concept Probing of Large Language Models: Abstraction, Compositionality, and Grounding",
+      "url": "https://arxiv.org/abs/2608.07353v1",
+      "published": "2026-08-07T15:46:38Z",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.IR",
+        "cs.LG"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07405v1",
+      "title": "GeoDistill-Refine: Silhouette-First Geometry Distillation for Annotation-Free Spacecraft Segmentation",
+      "url": "https://arxiv.org/abs/2608.07405v1",
+      "published": "2026-08-07T16:53:05Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07116v1",
+      "title": "Geometry-Aware Camera Localization for Bronchoscopy",
+      "url": "https://arxiv.org/abs/2608.07116v1",
+      "published": "2026-08-07T11:20:56Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.06884v1",
+      "title": "Georeferencing Non-Gazetteered Place Names using Biological Specimen Records",
+      "url": "https://arxiv.org/abs/2608.06884v1",
+      "published": "2026-08-07T07:15:38Z",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.IR"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.06992v1",
+      "title": "GPTKB 2.0: Browsing, Querying, and Auditing a Disambiguated LLM-Derived Knowledge Base",
+      "url": "https://arxiv.org/abs/2608.06992v1",
+      "published": "2026-08-07T09:10:30Z",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.DB"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07283v1",
+      "title": "Grammar Engineering Meets LLMs: Development of Cantonese and Irish ParGram Treebanks",
+      "url": "https://arxiv.org/abs/2608.07283v1",
+      "published": "2026-08-07T14:44:19Z",
+      "categories": [
+        "cs.CL"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.06984v1",
+      "title": "HarnessSafe: Evaluating Safety Across Persistent Carriers in Agent Harnesses",
+      "url": "https://arxiv.org/abs/2608.06984v1",
+      "published": "2026-08-07T09:03:49Z",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07204v1",
+      "title": "HNR-DAC: Hard-Negative Reranking and Distribution-Aligned Classification for Scientific Claim Verification",
+      "url": "https://arxiv.org/abs/2608.07204v1",
+      "published": "2026-08-07T13:19:40Z",
+      "categories": [
+        "cs.CL"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07285v1",
+      "title": "How Much AI Is in This Track? Quantifying the Proportion of AI-Generated Stems in Hybrid Music Mixtures",
+      "url": "https://arxiv.org/abs/2608.07285v1",
+      "published": "2026-08-07T14:46:06Z",
+      "categories": [
+        "eess.AS",
+        "cs.AI",
+        "eess.SP"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07118v1",
+      "title": "How Much, Then Where: Credit-Conserving Action-to-Token Allocation for Multi-Turn Agent Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2608.07118v1",
+      "published": "2026-08-07T11:22:09Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07091v1",
+      "title": "Human-Centered Explainable AI for TinyML Edge Devices: A Pareto-Based Selection Framework with LLM-Guided Design",
+      "url": "https://arxiv.org/abs/2608.07091v1",
+      "published": "2026-08-07T10:40:53Z",
+      "categories": [
+        "cs.HC",
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07417v1",
+      "title": "I Seek You in Videos: Identity-Conditioned Queries for Person-Centric Video Reasoning",
+      "url": "https://arxiv.org/abs/2608.07417v1",
+      "published": "2026-08-07T17:02:02Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07457v1",
+      "title": "Interaction Creates Dynamical AI Behavior Absent in Isolation",
+      "url": "https://arxiv.org/abs/2608.07457v1",
+      "published": "2026-08-07T17:49:55Z",
+      "categories": [
+        "cs.AI",
+        "cond-mat.dis-nn",
+        "cond-mat.stat-mech",
+        "physics.soc-ph"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07092v1",
+      "title": "International Transfer of Stochastic Cortical Self-Reconstruction",
+      "url": "https://arxiv.org/abs/2608.07092v1",
+      "published": "2026-08-07T10:41:52Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.LG",
+        "q-bio.NC"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07151v1",
+      "title": "Interpretable reinforcement learning with decision-tree pruning",
+      "url": "https://arxiv.org/abs/2608.07151v1",
+      "published": "2026-08-07T12:14:33Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.06846v1",
+      "title": "Investigating Quantum-Embedded Transformers on Classical Datasets for Cross-Modality Classification",
+      "url": "https://arxiv.org/abs/2608.06846v1",
+      "published": "2026-08-07T06:09:28Z",
+      "categories": [
+        "quant-ph",
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.06963v1",
+      "title": "Learning in Deep Networks under Dale's Constraint",
+      "url": "https://arxiv.org/abs/2608.06963v1",
+      "published": "2026-08-07T08:40:40Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.06867v1",
+      "title": "LLMRouter: Unified Infrastructure for Developing, Evaluating, and Deploying LLM Routers",
+      "url": "https://arxiv.org/abs/2608.06867v1",
+      "published": "2026-08-07T06:46:58Z",
+      "categories": [
+        "cs.CL"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.06948v1",
+      "title": "LMM Modality Transfer: A Pre-requisite for Autonomous GIS Agents",
+      "url": "https://arxiv.org/abs/2608.06948v1",
+      "published": "2026-08-07T08:25:14Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07378v1",
+      "title": "LSEAD: A Privacy-Preserving LLM-Based Speech Analysis Framework for Early Alzheimer's Disease Screening",
+      "url": "https://arxiv.org/abs/2608.07378v1",
+      "published": "2026-08-07T16:21:00Z",
+      "categories": [
+        "eess.AS",
+        "cs.AI",
+        "cs.LG"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.06929v1",
+      "title": "MaskFlow: Precise, Consistent and Seamless Regional Image Editing",
+      "url": "https://arxiv.org/abs/2608.06929v1",
+      "published": "2026-08-07T08:03:41Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07208v1",
+      "title": "Measuring Concept Content in Text from LLM Activations: ESG Evidence from Concept Vectors and Linear Probes",
+      "url": "https://arxiv.org/abs/2608.07208v1",
+      "published": "2026-08-07T13:21:50Z",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.LG",
+        "econ.GN"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07068v1",
+      "title": "MemOPD: On-Policy Distillation through Memory State Alignment for Long-Horizon Agents",
+      "url": "https://arxiv.org/abs/2608.07068v1",
+      "published": "2026-08-07T10:18:31Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07107v1",
+      "title": "MemWM: Memory-Augmented Text-Based World Model",
+      "url": "https://arxiv.org/abs/2608.07107v1",
+      "published": "2026-08-07T11:03:32Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07110v1",
+      "title": "Modular TTT: Rethinking Test-Time Training as Composable Modules",
+      "url": "https://arxiv.org/abs/2608.07110v1",
+      "published": "2026-08-07T11:11:43Z",
+      "categories": [
+        "cs.LG",
+        "cs.CL"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07180v1",
+      "title": "Momba: Network Modernization Improves Multi-Objective Reinforcement Learning",
+      "url": "https://arxiv.org/abs/2608.07180v1",
+      "published": "2026-08-07T12:50:30Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.06865v1",
+      "title": "Multi-Agent Forensic Reasoning for Generalizable Deepfake Video Detection",
+      "url": "https://arxiv.org/abs/2608.06865v1",
+      "published": "2026-08-07T06:44:14Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.MA"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07316v1",
+      "title": "Natural Language Processing Psychometrics",
+      "url": "https://arxiv.org/abs/2608.07316v1",
+      "published": "2026-08-07T15:10:57Z",
+      "categories": [
+        "cs.CL",
+        "cs.AI",
+        "cs.SI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07167v1",
+      "title": "NiyamAI - An Intent-Bound AI Agent with Cryptographically Verifiable Guardrails using Zero-Knowledge Proofs",
+      "url": "https://arxiv.org/abs/2608.07167v1",
+      "published": "2026-08-07T12:36:52Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07040v1",
+      "title": "Not All Problems Are Best Modeled as MILP: A DSL-Centric Framework for Flexible and Accurate Optimization Modeling",
+      "url": "https://arxiv.org/abs/2608.07040v1",
+      "published": "2026-08-07T09:50:52Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07385v1",
+      "title": "Omni-modal decomposition autoencoders learn full-stack wearable disentangled representations",
+      "url": "https://arxiv.org/abs/2608.07385v1",
+      "published": "2026-08-07T16:32:17Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "eess.AS",
+        "eess.SP",
+        "stat.ML"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07395v1",
+      "title": "PACE: Primitive-Aware Code Evolution for Automated Algorithm Design",
+      "url": "https://arxiv.org/abs/2608.07395v1",
+      "published": "2026-08-07T16:40:03Z",
+      "categories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07367v1",
+      "title": "People Are Not Just Their Countries. Disentangling Social Determinants of LLM Value Alignment Across Europe",
+      "url": "https://arxiv.org/abs/2608.07367v1",
+      "published": "2026-08-07T16:10:53Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.06975v1",
+      "title": "PHASE-Tree: Modeling Character-State Evolution in Long-Horizon Role-Playing Dialogue",
+      "url": "https://arxiv.org/abs/2608.06975v1",
+      "published": "2026-08-07T08:50:14Z",
+      "categories": [
+        "cs.CL",
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07126v1",
+      "title": "PHOENIX: Fine-Tuned SLM-Powered Autonomous Satellite Lifetime Extension via Predictive Self-Healing and Multi-Agent AI Recovery",
+      "url": "https://arxiv.org/abs/2608.07126v1",
+      "published": "2026-08-07T11:38:24Z",
+      "categories": [
+        "cs.HC",
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07436v1",
+      "title": "Post-Grokking Collapse at the Representation-Readout Interface in Muon-Trained Transformers",
+      "url": "https://arxiv.org/abs/2608.07436v1",
+      "published": "2026-08-07T17:21:49Z",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07438v1",
+      "title": "PsychoAgent: An Affect-Sensitive Cognitive Architecture for Conflict-Aware Memory in LLM Agents",
+      "url": "https://arxiv.org/abs/2608.07438v1",
+      "published": "2026-08-07T17:22:29Z",
+      "categories": [
+        "cs.AI",
+        "cs.CL",
+        "cs.HC"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07363v1",
+      "title": "QFCQT: A Chaotically Gated Quantformer Framework for Volatile Time-Series Forecasting",
+      "url": "https://arxiv.org/abs/2608.07363v1",
+      "published": "2026-08-07T16:05:21Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.06917v1",
+      "title": "ReGraph: Learning to Generate Recipe Graphs from Food Images",
+      "url": "https://arxiv.org/abs/2608.06917v1",
+      "published": "2026-08-07T07:51:08Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07154v1",
+      "title": "Representation Handoffs for OpenArm-Based Laboratory Mobile Manipulation",
+      "url": "https://arxiv.org/abs/2608.07154v1",
+      "published": "2026-08-07T12:19:50Z",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07176v1",
+      "title": "Representation-driven Endoscopic Visual Embedding Alignment for Latent Generation",
+      "url": "https://arxiv.org/abs/2608.07176v1",
+      "published": "2026-08-07T12:47:36Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07088v1",
+      "title": "RoRA: Role-Oriented Regional Allocation for Visual Token Pruning in MLLMs",
+      "url": "https://arxiv.org/abs/2608.07088v1",
+      "published": "2026-08-07T10:39:47Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07435v1",
+      "title": "SABRE: Scalable and Automated Benchmarking of VLMs under Stress",
+      "url": "https://arxiv.org/abs/2608.07435v1",
+      "published": "2026-08-07T17:21:04Z",
+      "categories": [
+        "cs.CV",
+        "cs.AI",
+        "cs.CL"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.06968v1",
+      "title": "Same physical state, different collective dynamics: state encodings select synchronization outcomes in language-model agents",
+      "url": "https://arxiv.org/abs/2608.06968v1",
+      "published": "2026-08-07T08:44:20Z",
+      "categories": [
+        "physics.soc-ph",
+        "cs.AI",
+        "cs.CY"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07078v1",
+      "title": "Scalable High-Fidelity Macromolecular Docking for GPU-Accelerated Supercomputers",
+      "url": "https://arxiv.org/abs/2608.07078v1",
+      "published": "2026-08-07T10:29:20Z",
+      "categories": [
+        "cs.DC",
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07254v1",
+      "title": "SCALE: Scientific Concept Aggregation via LLMs and Embeddings for Fine-Grained Taxonomy Extension",
+      "url": "https://arxiv.org/abs/2608.07254v1",
+      "published": "2026-08-07T14:12:15Z",
+      "categories": [
+        "cs.DL",
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07188v1",
+      "title": "SetEasy: A Multi-Modal Classroom Engagement Assessment and Seating Optimization Framework",
+      "url": "https://arxiv.org/abs/2608.07188v1",
+      "published": "2026-08-07T13:05:12Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07222v1",
+      "title": "Skaling: Chinchilla's Exponents Meet Kaplan's Coupling",
+      "url": "https://arxiv.org/abs/2608.07222v1",
+      "published": "2026-08-07T13:38:51Z",
+      "categories": [
+        "cs.CL"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.06891v1",
+      "title": "SkillEval: Decomposing Agent Skill Quality into Interpretable Signals",
+      "url": "https://arxiv.org/abs/2608.06891v1",
+      "published": "2026-08-07T07:25:17Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07449v1",
+      "title": "SkillProx: Self-Evolving Agent Skills via Proximal Textual Gradient Descent",
+      "url": "https://arxiv.org/abs/2608.07449v1",
+      "published": "2026-08-07T17:40:33Z",
+      "categories": [
+        "cs.AI",
+        "cs.CL"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07063v1",
+      "title": "Soft Redaction of Image Provenance via Zero-Knowledge Proofs",
+      "url": "https://arxiv.org/abs/2608.07063v1",
+      "published": "2026-08-07T10:13:13Z",
+      "categories": [
+        "cs.CR",
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07249v1",
+      "title": "Stoicheia: Character-Level Masked Diffusion for Ancient Greek Textual Restoration, Parsing, and Metrical Scansion",
+      "url": "https://arxiv.org/abs/2608.07249v1",
+      "published": "2026-08-07T14:07:43Z",
+      "categories": [
+        "cs.CL"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07454v1",
+      "title": "Strategy-first synthesis planning for complex natural products",
+      "url": "https://arxiv.org/abs/2608.07454v1",
+      "published": "2026-08-07T17:47:39Z",
+      "categories": [
+        "cs.MA",
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07446v1",
+      "title": "Taxonomy-Driven Analysis of Open-Source AI Risk Mitigation Tools",
+      "url": "https://arxiv.org/abs/2608.07446v1",
+      "published": "2026-08-07T17:33:09Z",
+      "categories": [
+        "cs.SE",
+        "cs.AI",
+        "cs.CY"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07429v1",
+      "title": "TEPA: Revoking Stale Memories for Conflict-Robust Language Agents",
+      "url": "https://arxiv.org/abs/2608.07429v1",
+      "published": "2026-08-07T17:16:33Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07274v1",
+      "title": "TOFD: Target-Oriented Feature Decoupling against Poisoning Attacks in Split Federated Learning",
+      "url": "https://arxiv.org/abs/2608.07274v1",
+      "published": "2026-08-07T14:34:24Z",
+      "categories": [
+        "cs.LG",
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07317v1",
+      "title": "Towards Assurance Closure in AI-Native Large-Scale Agile Software Development",
+      "url": "https://arxiv.org/abs/2608.07317v1",
+      "published": "2026-08-07T15:11:18Z",
+      "categories": [
+        "cs.SE",
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07077v1",
+      "title": "Transformers Struggle to Use Their Emergent World Models: Revisiting the Tower of Hanoi, and the Illusion of Thinking",
+      "url": "https://arxiv.org/abs/2608.07077v1",
+      "published": "2026-08-07T10:29:19Z",
+      "categories": [
+        "cs.AI",
+        "cs.LG"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.06926v1",
+      "title": "TRIBE: Predicting Team Performance via Communication Behavior Ensembles",
+      "url": "https://arxiv.org/abs/2608.06926v1",
+      "published": "2026-08-07T08:01:45Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07053v1",
+      "title": "Unsupervised Adaptation of PDE Foundation Models",
+      "url": "https://arxiv.org/abs/2608.07053v1",
+      "published": "2026-08-07T10:01:50Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07261v1",
+      "title": "Why Knowing Both Hops Is Not Enough: Understanding Two-Hop Generalization in Language Models",
+      "url": "https://arxiv.org/abs/2608.07261v1",
+      "published": "2026-08-07T14:17:34Z",
+      "categories": [
+        "cs.CL"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07303v1",
+      "title": "Winning by Peeking: Unenforced Budgets and Test-Set Selection Inflate Short-Budget AutoML Comparisons",
+      "url": "https://arxiv.org/abs/2608.07303v1",
+      "published": "2026-08-07T15:00:10Z",
+      "categories": [
+        "cs.AI",
+        "cs.LG",
+        "math.ST"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.07033v1",
+      "title": "ZIPBrain: Can EEG Foundation Models Be Faster, Locally Deployable, but Accurate?",
+      "url": "https://arxiv.org/abs/2608.07033v1",
+      "published": "2026-08-07T09:45:02Z",
+      "categories": [
+        "cs.AI"
+      ],
+      "score": 0,
+      "band": "NONE",
+      "matches": []
+    },
+    {
+      "arxiv_id": "2608.06898v1",
+      "title": "How Should I Pick a Foundation Model for My Robot? In Favor of a Community Evaluation Framework for Social Robots",
+      "url": "https://arxiv.org/abs/2608.06898v1",
+      "published": "2026-08-07T07:33:25Z",
+      "categories": [
+        "cs.RO",
+        "cs.CL",
+        "cs.HC"
+      ],
+      "score": -1,
+      "band": "NONE",
+      "matches": [
+        {
+          "kind": "interest",
+          "concept": "evaluation_reliability",
+          "term": "evaluation",
+          "points": 4
+        },
+        {
+          "kind": "negative",
+          "concept": "robotics",
+          "term": "robot",
+          "points": -5
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2608.07368v1",
+      "title": "Measurements Automatically Extracted from Zero Echo Time MRI Using Deep Learning Image Segmentation and Geometric Modeling Agree with Expert Manual Readings",
+      "url": "https://arxiv.org/abs/2608.07368v1",
+      "published": "2026-08-07T16:11:11Z",
+      "categories": [
+        "physics.med-ph",
+        "cs.AI",
+        "cs.CV"
+      ],
+      "score": -4,
+      "band": "NONE",
+      "matches": [
+        {
+          "kind": "negative",
+          "concept": "vision_only",
+          "term": "image segmentation",
+          "points": -4
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2608.07079v1",
+      "title": "LifelongCrossNav: Persistent 3D Semantic Memory for Cross-Floor Multi-Object Navigation",
+      "url": "https://arxiv.org/abs/2608.07079v1",
+      "published": "2026-08-07T10:31:20Z",
+      "categories": [
+        "cs.RO",
+        "cs.AI"
+      ],
+      "score": -5,
+      "band": "NONE",
+      "matches": [
+        {
+          "kind": "negative",
+          "concept": "robotics",
+          "term": "navigation",
+          "points": -5
+        }
+      ]
+    },
+    {
+      "arxiv_id": "2608.07267v1",
+      "title": "WNM-3D: A World Navigation Model with 3D Scene Conditioning for Closed-Loop VLN",
+      "url": "https://arxiv.org/abs/2608.07267v1",
+      "published": "2026-08-07T14:29:00Z",
+      "categories": [
+        "cs.AI",
+        "cs.CV",
+        "cs.RO"
+      ],
+      "score": -5,
+      "band": "NONE",
+      "matches": [
+        {
+          "kind": "negative",
+          "concept": "robotics",
+          "term": "navigation",
+          "points": -5
+        }
+      ]
+    }
+  ]
+}
